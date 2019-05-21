@@ -1,0 +1,26 @@
+listAccounts: ["0x03f519f9d065e48c2e5c022a4c2a4d07b82a43c2", "0xffbdd09eba9065cfd2fb250b0e4748e001d7b471", "0xbee7285b9f5bfa81fcfc4316573f2eda1236819d"],
+listWallets: [{
+    accounts: [{...}],
+    status: "Locked",
+    url: "keystore:///home/dh/eth/data/keystore/UTC--2018-08-08T03-59-15.781877692Z--03f519f9d065e48c2e5c022a4c2a4d07b82a43c2"
+}, {
+    accounts: [{...}],
+    status: "Locked",
+    url: "keystore:///home/dh/eth/data/keystore/UTC--2018-08-08T04-34-20.548177033Z--ffbdd09eba9065cfd2fb250b0e4748e001d7b471"
+}, {
+    accounts: [{...}],
+    status: "Locked",
+    url: "keystore:///home/dh/eth/data/keystore/UTC--2018-08-08T09-50-29.123431628Z--bee7285b9f5bfa81fcfc4316573f2eda1236819d"
+}],
+deriveAccount: function(),
+ecRecover: function(),
+getListAccounts: function(callback),
+getListWallets: function(callback),
+importRawKey: function(),
+lockAccount: function(),
+newAccount: function github.com/ethereum/go-ethereum/console.(*bridge).NewAccount-fm(),
+openWallet: function github.com/ethereum/go-ethereum/console.(*bridge).OpenWallet-fm(),
+sendTransaction: function(),
+sign: function github.com/ethereum/go-ethereum/console.(*bridge).Sign-fm(),
+signTransaction: function(),
+unlockAccount: function github.com/ethereum/go-ethereum/console.(*bridge).UnlockAccount-fm()
